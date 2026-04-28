@@ -23,7 +23,7 @@ const variants = {
 export const Services = () => {
   const ref = useRef(null);
 
-  useInView(ref, { margin: "-100px" });
+  const isInView = useInView(ref, { margin: "-100px" });
 
   return (
     <motion.div

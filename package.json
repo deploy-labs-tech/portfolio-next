@@ -7,7 +7,7 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "next lint",
     "check-types": "tsc --noemit",
     "pre-commit": "npm run lint && npm run check-types",
     "prepare": "husky install"
