@@ -41,7 +41,7 @@ export const ProjectDetails = ({
               type="button"
               className="bg-orange-400 border-0 rounded-lg p-2 w-48 cursor-pointer text-black hover:bg-orange-500 text-lg"
             >
-              See Demo
+              View
             </button>
           </Link>
         </motion.div>

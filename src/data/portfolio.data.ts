@@ -3,38 +3,38 @@ const currentUrl = "https://github.com/ikramdeveloper";
 export const portfolioData = [
   {
     id: 1,
-    title: "React Commerce",
+    title: "Cinematic AI Portrait Generator",
     image:
-      "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    link: currentUrl,
+      "/assets/film.jpg",
+      description:
+      "Built an AI portrait generator with photo uploads, image validation, Stripe payments, watermarked previews and full-resolution downloads.",
+      link: "https://cinematic-portrait-ai.vercel.app",
   },
   {
     id: 2,
-    title: "Next.js Blog",
+    title: "SiftScore.ai - Data-Heavy AI SaaS Platform",
     image:
-      "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    link: currentUrl,
+      "/assets/data.jpg",
+      description:
+      "Built an AI sourcing platform with vector search, OpenAI scoring, large-scale data workflows and instant CRM integration.",
+      link: "https://SiftScore.ai",
   },
   {
     id: 3,
-    title: "Vanilla JS App",
+    title: "Luxury E-Commerce Platform",
     image:
-      "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    link: currentUrl,
+      "/assets/luxury.jpg",
+      description:
+      "Built a custom luxury e-commerce platform with user dashboards, admin controls and a tailored webshop experience. Focused on clean UI, backend architecture, performance and scalability.",
+      link: "https://www.theluxebureau.com/",
   },
   {
     id: 4,
-    title: "Music App",
+    title: "Pet Care SaaS Website",
     image:
-      "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    link: currentUrl,
+      "/assets/pet.jpg",
+      description:
+      "Built a responsive SaaS website for pet service companies using React, HTML and Replit. Focused on product positioning, clean feature sections and regional business needs.",
+     link: "https://www.happypet.tech/",
   },
 ];

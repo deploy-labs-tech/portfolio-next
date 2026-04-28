@@ -37,8 +37,13 @@ export const Services = () => {
         variants={variants}
         className="flex-1 self-center md:self-end flex flex-col md:flex-row items-center gap-4 text-center md:text-start"
       >
-        <p className="max-w-[30ch] font-extralight text-xl text-gray-500 text-right">
-          I focus on helping your brand grow and move forward
+        <p className="font-extralight text-xl text-gray-500 text-right">
+          <span className="block whitespace-nowrap">
+            I build AI-powered software for faster teams
+          </span>
+          <span className="block whitespace-nowrap">
+            and smarter business decisions
+          </span>
         </p>
         <hr className="w-72 md:w-96 border-0 border-t border-gray-500" />
       </motion.article>
@@ -56,15 +61,15 @@ export const Services = () => {
           />
           <h4 className="capitalize text-4xl lg:text-6xl 2xl:text-8xl font-thin">
             <b className="font-semibold text-white hover:text-orange-500">
-              Unique
+              AI-Powered
             </b>{" "}
-            Ideas
+            Software
           </h4>
         </div>
         <div className="flex flex-col md:flex-row items-center gap-4 md:gap-12 text-center md:text-start">
           <h4 className="capitalize text-4xl lg:text-6xl 2xl:text-8xl font-thin">
             <b className="font-semibold text-white hover:text-orange-500">
-              For Your
+              For Modern
             </b>{" "}
             Business
           </h4>
@@ -78,21 +83,19 @@ export const Services = () => {
       </motion.article>
       <motion.article
         variants={variants}
-        className="flex-[2] flex flex-col md:flex-row w-full max-w-7xl m-auto"
+        className="flex-[2] grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-7xl m-auto"
       >
         {servicesData.map(item => (
           <motion.div
             key={item.title}
-            className="border-0 md:border border-gray-500 flex flex-col items-center justify-between gap-4 p-2 md:p-6 2xl:p-8 text-gray-100 hover:bg-gray-100 hover:text-black rounded-md"
+            className="border border-gray-500 flex flex-col items-start gap-4 p-4 md:p-6 2xl:p-8 text-gray-100 rounded-md min-h-[260px]"
           >
-            <h5 className="text-xl font-semibold">{item.title}</h5>
-            <p className="hidden md:block line-clamp-2">{item.description}</p>
-            <button
-              type="button"
-              className="bg-transparent md:bg-orange-400 border border-orange-400 md:border-none rounded-lg text-orange-400 md:text-black w-full p-2 cursor-pointer md:hover:bg-orange-500"
-            >
-              Go
-            </button>
+            <h5 className="w-full text-center text-xl font-semibold leading-tight">
+              {item.title}
+            </h5>
+            <p className="hidden md:block w-full text-left text-sm lg:text-base leading-relaxed text-gray-200 line-clamp-4">
+              {item.description}
+            </p>
           </motion.div>
         ))}
       </motion.article>

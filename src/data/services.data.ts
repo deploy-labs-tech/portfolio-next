@@ -1,17 +1,17 @@
 export const servicesData = [
   {
-    title: "Branding",
+    title: "AI SaaS Platforms",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum libero enim nisi aliquam consectetur expedita magni eius ex corruptianimi! Ad nam pariatur assumenda quaemollitia libero repellat explicabo maiores?",
+      "I build AI-powered SaaS products using Python, FastAPI, LLM workflows, NLP extraction and AI search. My work includes meeting intelligence systems, transcription workflows and enterprise automation."
   },
   {
-    title: "Branding2",
+    title: "Full-Stack Web Apps",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum libero enim nisi aliquam consectetur expedita magni eius ex corruptianimi! Ad nam pariatur assumenda quaemollitia libero repellat explicabo maiores?",
+      "Creating clean web applications with React, Next.js, TypeScript, Angular and Vue."
   },
   {
-    title: "Branding3",
+    title: "Cloud & Enterprise Systems",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum libero enim nisi aliquam consectetur expedita magni eius ex corruptianimi! Ad nam pariatur assumenda quaemollitia libero repellat explicabo maiores?",
+      "Scaling secure cloud platforms with AWS, Kafka,Kubernetes, Redis, Salesforce and HubSpot."
   },
 ];

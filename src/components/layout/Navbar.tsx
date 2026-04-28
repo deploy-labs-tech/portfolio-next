@@ -14,17 +14,12 @@ export const Navbar = () => {
           transition={{ duration: 0.5 }}
           className="none md:inline font-bold text-white uppercase"
         >
-          Ikram Developer
+          Tyler Dodd
         </motion.span>
         <div className="flex gap-4">
-          <Link href="#" target="_blank">
-            <GithubIcon className="w-6 h-6 text-white" />
-          </Link>
-          <Link href="#" target="_blank">
+          
+          <Link href="https://wwww.linkedin.com/in/tyler-dodd-a68497406" target="_blank">
             <LinkedinIcon className="w-6 h-6 text-white" />
-          </Link>
-          <Link href="#" target="_blank">
-            <FacebookIcon className="w-6 h-6 text-white" />
           </Link>
         </div>
       </article>

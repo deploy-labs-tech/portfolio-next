@@ -49,13 +49,13 @@ export const Hero = () => {
           variants={textVariants}
           className="text-2xl md:text-4xl text-purple-shade spacing tracking-widest uppercase"
         >
-          Ikram Ul Haq
+          Tyler Dodd
         </motion.h2>
         <motion.h1
           variants={textVariants}
           className="text-4xl md:text-6xl 2xl:text-8xl capitalize"
         >
-          Full Stack Developer
+          Senior software engineer
         </motion.h1>
         <motion.div
           variants={textVariants}
@@ -95,7 +95,7 @@ export const Hero = () => {
         animate="animate"
         className="absolute text-[50vh] -bottom-28 whitespace-nowrap text-hero-bottom w-1/2 font-bold"
       >
-        Programmer, Developer, Problem Solver
+        Senior software engineer
       </motion.div>
       {/* <figure className="h-1/2 md:h-full w-full md:w-auto absolute top-auto md:top-0 bottom-0 md:bottom-auto right-0">
         <Image
