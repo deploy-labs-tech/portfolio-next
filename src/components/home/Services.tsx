@@ -77,7 +77,7 @@ export const Services = () => {
             type="button"
             className="uppercase w-36 lg:w-48 2xl:w-64 h-12 lg:h-16 2xl:h-20 rounded-[50px] text-black bg-orange-400 border-none text-base lg:text-xl 2xl:text-2xl cursor-pointer hover:bg-orange-500"
           >
-            What we do?
+            What I Do?
           </button>
         </div>
       </motion.article>
